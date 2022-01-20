@@ -36,11 +36,11 @@ using System;
 using System.Runtime.InteropServices;
 using Foundation;
 
-using Vector3 = global::OpenTK.Vector3;
-using Vector3d = global::OpenTK.Vector3d;
-using Vector4 = global::OpenTK.Vector4;
-using Quaternion = global::OpenTK.Quaternion;
-using Quaterniond = global::OpenTK.Quaterniond;
+using Vector3 = global::System.Numerics.Vector3;
+using Vector3d = global::CoreGraphics.NVector3d;
+using Vector4 = global::System.Numerics.Vector4;
+using Quaternion = global::System.Numerics.Quaternion;
+using Quaterniond = global::CoreGraphics.NQuaterniond;
 
 #if PFLOAT_SINGLE
 using pfloat = System.Single;
